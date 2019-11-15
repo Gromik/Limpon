@@ -5,3 +5,89 @@
 @import "base/fonts";
 @import "base/general";
 @import "../blocks/modules";
+
+$dark-blue-title: #192b59;
+$light-blue-text: #1a88e1;
+$light-text: #fff;
+$gray-text: #7581a1;
+$button-blue: #1085e4;
+$button-gray: #cbdbe8;
+$button-text-gray: #7e8bae;
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: $gray-text;
+}
+a {
+    text-decoration: none;
+}
+.btn-primary {
+    background-color: $button-blue;
+    color: $light-text;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 21px 40px;
+    border-radius: 30px;
+}
+.btn-secondary {
+    background-color: $button-gray;
+    color: $button-text-gray;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 21px 40px;
+    border-radius: 30px;
+}
+.page-header {
+    h1 {
+        font-size: 80px;
+        font-weight: 600;
+        color: $dark-blue-title;
+    }
+    &-nav {
+        color: $gray-text;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        list-style-type: none;
+    }    
+    &-button {
+        margin-left: 15px;
+    }
+}
+.btn-free {
+    font-weight: 400;
+    background-color: $button-color;
+    padding: 21px 52px;
+    letter-spacing: 1.7px;
+}
+.grid {
+    h2 {
+        font-size: 40px;
+        color: $dark-blue-title;
+        font-weight: 700;
+        span {
+            display: block;
+            color: $light-blue-text;
+            font-size: 14px;
+            font-weight: 700;
+        }
+    }
+}
+.grid-item {
+    h3 {
+        color: $dark-blue-title;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    a {
+        font-size: 14px;
+        color: $button-color;
+        font-weight: 600;
+    }
+}
