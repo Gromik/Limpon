@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="zxx">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,23 +23,22 @@
         <link rel="apple-touch-icon" sizes="167x167" href="../img/favicons/apple-touch-icon-167x167.png">
         <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
         <link rel="apple-touch-icon" sizes="1024x1024" href="../img/favicons/apple-touch-icon-1024x1024.png">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="../styles/main.scss">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
-        <link rel="stylesheet" href="../styles/main.css">
     </head>
     <body>
         @@include("../blocks/modules/header/header.html")
-        <div class="page-header">
+        <div class="page page-header">
             <header>
             <a href=""></a>
                <ul class="page-header-nav">
-                   <li>Home</li>
-                   <li>Features</li>
-                   <li>Video</li>
-                   <li>Screens</li>
-                   <li>Pricing</li>
-                   <li>Team</li>
+                   <li><a href="" class="page-header-nav-item">Home</a></li>
+                   <li><a href=""class="page-header-nav-item">Features</a></li>
+                   <li><a href=""class="page-header-nav-item">Video</a></li>
+                   <li><a href=""class="page-header-nav-item">Screens</a></li>
+                   <li><a href=""class="page-header-nav-item">Pricing</a></li>
+                   <li><a href=""class="page-header-nav-item">Team</a></li>
                    <li><a href="" class="btn-free btn-primary">Free Trail</a></li>
             </ul>
             </header>
@@ -49,7 +48,7 @@
                 <a href="" class="btn-secondary">Learn More</a>
             </div>	
         </div>
-        <div class="page-company">
+        <div class="page page-company">
             <ul>
                 <li></li>
                 <li></li>
@@ -57,9 +56,9 @@
                 <li></li>
             </ul>
         </div>
-        <div class="page-grid">
+        <div class="page page-grid">
             <div class="grid">
-                <h2><span class="">Features</span>Best Features Ever Seen</h2>
+                <h2><span>Features</span>Best Features Ever Seen</h2>
                 <div class="grid-item">
                     <div></div>
                     <h3>Well Documented</h3>
@@ -102,7 +101,7 @@
                 </div>
             </div>
         </div>		
-        <div class="page-subscribe">
+        <div class="page page-subscribe">
             <div>
                 <div>
                     <h2><span>SUBSCRIBE</span>Signup For A Trail</h2>
@@ -113,7 +112,7 @@
                 <img src="../img/Robot.png" alt="robot"></img>
             </div>
         </div>
-        <div class="page-software">
+        <div class="page page-software">
             <div></div>
             <h2>Grab Your Software With Amazing Features</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -124,10 +123,10 @@
                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
             </dl>
         </div>
-        <div class="page-stat">
+        <div class="page page-stat">
             <div>
-                <h2><span>Fun Facts</span> Some Fun Facts About Dashboard</h2>
-                <ul>
+                <h2 class="page-stat__title"><span>Fun Facts</span> Some Fun Facts About Dashboard</h2>
+                <ul class="page-stat-list">
                     <li><span>53K</span>Layouts</li>
                     <li><span>10K</span>Projects</li>				
                     <li><span>12K</span>Cup Coffee</li>				
@@ -135,7 +134,7 @@
                 </ul>
             </div>	
         </div>
-        <div class="page-app">
+        <div class="page page-app">
             <div>
                 <div>
                     <h2>Meet With Future Landingpage</h2>
@@ -149,20 +148,20 @@
                 <img src="../img/Play.png" alt="video.png"></img>
             </div>
         </div>		
-        <div class="page-analytics">
+        <div class="page page-analytics">
             <img scr="../img/Brandon.png" alt=""></img>
             <h2>Limpon Is Suitable For Anytype LandingPage</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
             <a href="">get started now</a>
         </div>
-        <div class="page-control">
+        <div class="page page-control">
             <img scr="" alt=""></img>
             <img scr="" alt=""></img>
             <h2>Easy To Edit & Very Easily To Control</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
             <a href="">Learn More</a>
         </div>		
-        <div class="page-screen">
+        <div class="page page-screen">
             <h2><span>Screen Preview</span>Screenshot With Details</h2>
             <img src="" alt=""></img>
         </div>
@@ -236,7 +235,7 @@
             </div>
         <div class="page-team">
             <h2><span>Angels</span>Our Team</h2>
-        <div class="box-team">
+        <div class="page-team__box">
             <div>
                 <p>founder</p>
                 <p>Ricardo T. Obrien</p>

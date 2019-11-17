@@ -20,8 +20,16 @@ body {
     line-height: 26px;
     color: $gray-text;
 }
-a {
-    text-decoration: none;
+.page {
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 50px;
+    color: $dark-blue-title;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
 }
 .btn-primary {
     background-color: $button-blue;
@@ -48,23 +56,31 @@ a {
         font-size: 80px;
         font-weight: 600;
         color: $dark-blue-title;
+        max-width: 540px;
+        line-height: 1.1;
+        letter-spacing: -2.5px;
+        margin-bottom: 64px;
     }
     &-nav {
-        color: $gray-text;
         font-size: 12px;
         font-weight: 700;
         text-transform: uppercase;
         list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        &-item {
+            padding: 0 15px;
+            color: $gray-text;
+        }
     }    
-    &-button {
-        margin-left: 15px;
-    }
 }
 .btn-free {
     font-weight: 400;
-    background-color: $button-color;
+    background-color: $button-blue;
     padding: 21px 52px;
     letter-spacing: 1.7px;
+    margin-left: 15px;
 }
 .grid {
     h2 {
@@ -87,7 +103,49 @@ a {
     }
     a {
         font-size: 14px;
-        color: $button-color;
+        color: $button-blue;
         font-weight: 600;
+    }
+}
+.page-stat {
+    text-align: center;
+    padding: 116px 0 96px 0;
+    background-color: #edf6ff;
+    &__title {
+        margin: 0 auto;
+        max-width: 500px;
+        line-height: 1.2;
+        letter-spacing: -1.5px;
+        span {
+            display: block;
+            font-size: 16px;
+            color: $button-blue;
+            font-weight: 800;
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        margin-top: 76px;
+
+        li {
+            color: $button-blue;
+            font-weight: 700;
+            font-size: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2.7px;
+            span {
+                display: block;
+                font-size: 60px;
+                color: #bacbdc;
+                margin-bottom: 23px;
+                letter-spacing: 0;
+            }
+        }
     }
 }
