@@ -30,34 +30,41 @@
     <body>
         @@include("../blocks/modules/header/header.html")
         <div class="page page-header">
-            <header>
-            <a href=""></a>
-               <ul class="page-header-nav">
-                   <li><a href="" class="page-header-nav-item">Home</a></li>
-                   <li><a href=""class="page-header-nav-item">Features</a></li>
-                   <li><a href=""class="page-header-nav-item">Video</a></li>
-                   <li><a href=""class="page-header-nav-item">Screens</a></li>
-                   <li><a href=""class="page-header-nav-item">Pricing</a></li>
-                   <li><a href=""class="page-header-nav-item">Team</a></li>
-                   <li><a href="" class="btn-free btn-primary">Free Trail</a></li>
-            </ul>
-            </header>
+            <div class="wpap page-header-flex">
+                <header>
+                <a href="" class="page-header-logo"></a>
+                    <ul class="page-header-nav">
+                        <li><a href="" class="page-header-nav-item">Home</a></li>
+                        <li><a href=""class="page-header-nav-item">Features</a></li>
+                        <li><a href=""class="page-header-nav-item">Video</a></li>
+                        <li><a href=""class="page-header-nav-item">Screens</a></li>
+                        <li><a href=""class="page-header-nav-item">Pricing</a></li>
+                        <li><a href=""class="page-header-nav-item">Team</a></li>
+                        <li><a href="" class="btn-free btn-primary">Free Trail</a></li>
+                </ul>
+                </header>
+            </div>
+            <div class="wrap">
                 <h1>Best Software Landingpage</h1>
                 <div class="page-header-button">
                 <a href="" class="btn-primary">Get Started Now</a>
                 <a href="" class="btn-secondary">Learn More</a>
+                </div>
             </div>	
+            <div class="page-header-screen"></div>  
         </div>
         <div class="page page-company">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="wrap">
+                <ul class="page-company-list">
+                    <li class="page-company-list-item--one"></li>
+                    <li class="page-company-list-item--two"></li>
+                    <li class="page-company-list-item--three"></li>
+                    <li class="page-company-list-item--four"></li>
+                </ul>
+            </div> 
         </div>
         <div class="page page-grid">
-            <div class="grid">
+            <div class="wrap">
                 <h2><span>Features</span>Best Features Ever Seen</h2>
                 <div class="grid-item">
                     <div></div>
@@ -102,29 +109,33 @@
             </div>
         </div>		
         <div class="page page-subscribe">
-            <div>
+            <div class="wrap">
                 <div>
                     <h2><span>SUBSCRIBE</span>Signup For A Trail</h2>
                     <p>Create your free account now & get 30 days free trail  o credit card required</p>
-                    <input type="email" placeholder="Enter your email address" />
-                    <button type="submit">subscribe</button>
+                    <div class="page-subscribe-form">
+                        <input type="email" placeholder="Enter your email address"/>
+                        <button type="submit" class="btn-primary btn-primary-form">subscribe</button>
+                    </div>
                 </div>
                 <img src="../img/Robot.png" alt="robot"></img>
             </div>
         </div>
         <div class="page page-software">
-            <div></div>
-            <h2>Grab Your Software With Amazing Features</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <dl>
-                <dt>01. Clean Design</dt>
-                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
-                <dt>02. Easy to customize</dt>
-                <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
-            </dl>
+            <div class="wrap">
+                <div></div>
+                <h2>Grab Your Software With Amazing Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <dl>
+                    <dt>01. Clean Design</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                    <dt>02. Easy to customize</dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</dd>
+                </dl>
+            </div>
         </div>
         <div class="page page-stat">
-            <div>
+            <div class="wrap">
                 <h2 class="page-stat__title"><span>Fun Facts</span> Some Fun Facts About Dashboard</h2>
                 <ul class="page-stat-list">
                     <li><span>53K</span>Layouts</li>
@@ -135,7 +146,7 @@
             </div>	
         </div>
         <div class="page page-app">
-            <div>
+            <div class="wrap">
                 <div>
                     <h2>Meet With Future Landingpage</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -149,127 +160,144 @@
             </div>
         </div>		
         <div class="page page-analytics">
-            <img scr="../img/Brandon.png" alt=""></img>
-            <h2>Limpon Is Suitable For Anytype LandingPage</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <a href="">get started now</a>
+            <div class="wrap">
+                <img scr="../img/Brandon.png" alt=""></img>
+                <h2>Limpon Is Suitable For Anytype LandingPage</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="">get started now</a>
+            </div>
         </div>
         <div class="page page-control">
+            <div class="wrap">
+                <h2>Easy To Edit & Very Easily To Control</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <a href="">Learn More</a>
+            </div>
             <img scr="" alt=""></img>
             <img scr="" alt=""></img>
-            <h2>Easy To Edit & Very Easily To Control</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <a href="">Learn More</a>
         </div>		
         <div class="page page-screen">
-            <h2><span>Screen Preview</span>Screenshot With Details</h2>
-            <img src="" alt=""></img>
-        </div>
-        <div>
-            <h2><span>Testimonials</span>Our Happy Clients</h2>
-            <div class="box-clients">
-                <div></div>
+            <div class="wrap">
+                <h2><span>Screen Preview</span>Screenshot With Details</h2>
+                <img src="../img/Screenshots.png" alt=""></img>
             </div>
         </div>
-        <div>
-            <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
-            <img src=" " alt=" ">
-            <p>Colin B. Mirano</p>
-            <p>ceo. uihub</p>
-        </div>
-        <div>
-            <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
-            <img src=" " alt=" "></img>
-            <p>Colin B. Mirano</p>
-            <p>ceo. uihub</p>
-        </div>
-        <div>
-            <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
-            <img src=" " alt=" "></img>
-            <p>Colin B. Mirano</p>
-            <p>ceo. uihub</p>
-        </div>
-        <div class="page-plan">
-            <h2><span>Our Plans</span>Pricing Plans</h2>
-            <div class="box-price">
-                <div class="box-price-item">
-                    <h3>Free</h3>
-                    <strong>starter</strong>
-                    <ul>
-                        <li>Unlimited Users Active</li>
-                        <li>1 GB Bandwidth Speed</li>
-                        <li>256 MB Memory Card</li>
-                        <li>Free Domain Number</li>
-                        <li>Free Hosting Name</li>
-                        <li>24x7 Online Support</li>
-                    </ul>
-                    <a href="">choose plan</a>
-                </div>	
-                <div class="box-price-item active">
-                    <h3><span class="">$</span>90<span>/mo</span></h3>
-                    <strong>starter</strong>
-                    <ul>
-                        <li>Unlimited Users Active</li>
-                        <li>1 GB Bandwidth Speed</li>
-                        <li>256 MB Memory Card</li>
-                        <li>Free Domain Number</li>
-                        <li>Free Hosting Name</li>
-                        <li>24x7 Online Support</li>
-                    </ul>
-                    <a href="">choose plan</a>	
+        <div class="page page-clients">
+            <div class="wrap">
+                <h2><span>Testimonials</span>Our Happy Clients</h2>
+                <div class="page-box-clients">
+                    <div></div>
+                    <div>
+                        <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
+                        <img src=" " alt=" ">
+                        <p>Colin B. Mirano</p>
+                        <p>ceo. uihub</p>
+                    </div>
+                    <div>
+                        <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
+                        <img src=" " alt=" "></img>
+                        <p>Colin B. Mirano</p>
+                        <p>ceo. uihub</p>
+                    </div>
+                    <div>
+                        <p>It is a long established fact that read her will be distracted by the readable content of a page when looking</p>
+                        <img src=" " alt=" "></img>
+                        <p>Colin B. Mirano</p>
+                        <p>ceo. uihub</p>
+                    </div>
                 </div>
-                <div>
-                    <h3><span class="">$</span>350<span>/mo</span></h3>
-                    <strong>starter</strong>
-                    <ul>
-                        <li>Unlimited Users Active</li>
-                        <li>1 GB Bandwidth Speed</li>
-                        <li>256 MB Memory Card</li>
-                        <li>Free Domain Number</li>
-                        <li>Free Hosting Name</li>
-                        <li>24x7 Online Support</li>
-                    </ul>
-                    <a href="">choose plan</a>	
-                </div>
-                </div>		
             </div>
+        </div>
+        <div class="page page-plan">
+            <div class="wrap">
+                <h2><span>Our Plans</span>Pricing Plans</h2>
+                <div class="page-plan__box-price">
+                    <div class="page-plan__box-price-item">
+                        <h3>Free</h3>
+                        <strong>starter</strong>
+                        <ul>
+                            <li>Unlimited Users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Number</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                        </ul>
+                        <a href="" class="btn-secondary">choose plan</a>
+                    </div>	
+                    <div class="page-plan__box-price-item--active">
+                        <h3><span class="">$</span>90<span>/mo</span></h3>
+                        <strong>starter</strong>
+                        <ul>
+                            <li>Unlimited Users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Number</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                        </ul>
+                        <a href="btn-primary" class=>choose plan</a>	
+                    </div>
+                    <div class="page-plan__box-price-item">
+                        <h3><span class="">$</span>350<span>/mo</span></h3>
+                        <strong>starter</strong>
+                        <ul>
+                            <li>Unlimited Users Active</li>
+                            <li>1 GB Bandwidth Speed</li>
+                            <li>256 MB Memory Card</li>
+                            <li>Free Domain Number</li>
+                            <li>Free Hosting Name</li>
+                            <li>24x7 Online Support</li>
+                        </ul>
+                        <a href="" >choose plan</a>	
+                    </div>
+                </div>
+            </div>		
+        </div>
         <div class="page-team">
-            <h2><span>Angels</span>Our Team</h2>
-        <div class="page-team__box">
-            <div>
-                <p>founder</p>
-                <p>Ricardo T. Obrien</p>
-            </div>
-            <div>
-                <p>founder</p>
-                <p>Alberto Del Rio</p>
-            </div>
-            <div>
-                <p>founder</p>
-                <p>Thomas Alsa Adison</p>
+            <div class="wrap">
+                <h2><span>Angels</span>Our Team</h2>
+                <div class="page-team__box">
+                    <div>
+                        <p>founder</p>
+                        <p>Ricardo T. Obrien</p>
+                    </div>
+                    <div>
+                        <p>founder</p>
+                        <p>Alberto Del Rio</p>
+                    </div>
+                    <div>
+                        <p>founder</p>
+                        <p>Thomas Alsa Adison</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="page-form">
-            <h2>
-                Start Your Free Trail No Need Credit Card
-            </h2>
-            <form action="" method="post" accept-charset="utf-8">
-                <input type="text" placeholder="Enter your name here"/>
-                <input type="email" placeholder="Enter your email here"/>
-                <textarea name="textMessage" placeholder="Enter your message here"></textarea>
-                <button type="submit"><span></span>Submit now</button>
-            </form>
+            <div class="wrap">
+                <h2>
+                    Start Your Free Trail No Need Credit Card
+                </h2>
+                <form action="" method="post" accept-charset="utf-8">
+                    <input type="text" placeholder="Enter your name here"/>
+                    <input type="email" placeholder="Enter your email here"/>
+                    <textarea name="textMessage" placeholder="Enter your message here"></textarea>
+                    <button type="submit"><span></span>Submit now</button>
+                </form>
+            </div>
         </div>
         <div class="footer">
-            <div>
-                <p>Made With Love & Copyright By - <a href="">Limpon</a></p>
-                <ul class="social">
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                    <li><a href="" target="_blank"></a></li>
-                </ul>
+            <div class="wrap">
+                <div>
+                    <p>Made With Love & Copyright By - <a href="">Limpon</a></p>
+                    <ul class="social">
+                        <li><a href="" target="_blank"></a></li>
+                        <li><a href="" target="_blank"></a></li>
+                        <li><a href="" target="_blank"></a></li>
+                        <li><a href="" target="_blank"></a></li>
+                        <li><a href="" target="_blank"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         @@include("../blocks/modules/footer/footer.html")
